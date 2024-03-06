@@ -10,12 +10,12 @@ public class Main {
         float myFloat1 = 111.111f;
         double myDouble1 = 111_111.111;
 
-        System.out.printf("Значение переменной %s с типом %s равно " + myInt1 + "\n", "myInt1", "int");
-        System.out.printf("Значение переменной %s с типом %s равно " + myByte1 + "\n", "myByte1", "byte");
-        System.out.printf("Значение переменной %s с типом %s равно " + myShort1 + "\n", "myShort1", "short");
-        System.out.printf("Значение переменной %s с типом %s равно " + myLong1 + "\n", "myLong1", "long");
-        System.out.printf("Значение переменной %s с типом %s равно " + myFloat1 + "\n", "myFloat1", "float");
-        System.out.printf("Значение переменной %s с типом %s равно " + myDouble1 + "\n\n", "myDouble1", "double");
+        System.out.printf("Значение переменной %s с типом %s равно %d\n", "myInt1", "int", myInt1);
+        System.out.printf("Значение переменной %s с типом %s равно %d\n", "myByte1", "byte", myByte1);
+        System.out.printf("Значение переменной %s с типом %s равно %d\n", "myShort1", "short", myShort1);
+        System.out.printf("Значение переменной %s с типом %s равно %d\n", "myLong1", "long", myLong1);
+        System.out.printf("Значение переменной %s с типом %s равно %f\n", "myFloat1", "float", myFloat1);
+        System.out.printf("Значение переменной %s с типом %s равно %f\n\n", "myDouble1", "double", myDouble1);
 
         // Задача 2
 
@@ -64,7 +64,7 @@ public class Main {
         // Задача 6
 
         short bananasWeight = 5 * 80;
-        float milkWeight = (float) (105 / 100) * 200;
+        float milkWeight = (105.0f / 100) * 200;
         short iceCreamWeight = 2 * 100;
         short eggsWeight = 4 * 70;
         int totalWeight = (int) (bananasWeight + milkWeight + iceCreamWeight + eggsWeight);
